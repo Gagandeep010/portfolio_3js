@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './sections/Navbar.jsx';
 
 const App = () => {
+  return (
     <div className="container mx-auto max-w-7xl">
       <Navbar />
       {/* <Hero /> */}
@@ -12,7 +13,7 @@ const App = () => {
       {/* <Contact /> */}
       {/* <Footer/> */}
     </div>
-  
+  );
 };
 
 export default App;

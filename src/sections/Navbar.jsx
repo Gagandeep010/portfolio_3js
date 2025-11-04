@@ -36,7 +36,7 @@ const Navbar = () => {
             href="/"
             className="text-xl font-bold transition-colors text-neutral-400 hover:text-white"
           >
-            Gagandeep C
+            Gagan
           </a>
           <button
             onClick={() => setIsOpen(!isOpen)}

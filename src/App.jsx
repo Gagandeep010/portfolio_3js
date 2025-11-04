@@ -1,7 +1,17 @@
-import React from 'react'
+import React from 'react';
+import Navbar from './sections/Navbar.jsx';
 
 const App = () => {
-  return <div className='text-3xl font-bold underline'>App</div>;
+    <div className="container mx-auto max-w-7xl">
+      <Navbar />
+      {/* <Hero /> */}
+      {/* <About /> */}
+      {/* <Projects /> */}
+      {/* <Experiences /> */}
+      {/* <Testimonial /> */}
+      {/* <Contact /> */}
+      {/* <Footer/> */}
+    </div>
   
 };
 
